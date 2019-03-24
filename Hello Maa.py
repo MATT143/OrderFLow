@@ -1,4 +1,3 @@
 import sys
 
-sys.argv[1]=input('NAME:')
-print('Hello {}'.format(sys.argv[1]))
+print ('Sample output: %s' % (str(sys.argv[1]))
