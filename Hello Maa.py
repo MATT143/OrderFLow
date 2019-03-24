@@ -1,3 +1,4 @@
-import sys
+from os import environ
 
-print ('Sample output: %s' % (str(sys.argv[1]))
+name=environ.get('NAME','WORLD')
+print('Hello {}'.format(name))
