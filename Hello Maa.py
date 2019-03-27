@@ -1,3 +1,4 @@
+from os import environ
 
-name=input('NAME:')
+name=environ.get('NAME')
 print('Hello {}'.format(name))
